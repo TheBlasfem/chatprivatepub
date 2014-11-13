@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require chat
+//= require users
 //= require turbolinks
 //= require_tree .
