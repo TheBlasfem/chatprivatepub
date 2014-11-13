@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Railschat</title>
+  <meta content='<%= user_signed_in? ? current_user.id : "" %>' name='user-id'/>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
